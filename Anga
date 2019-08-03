@@ -1,0 +1,281 @@
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Lato;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  top: 58;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.25);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 30px;
+
+}
+
+#myBtn {
+  width: 300px;
+  font-size: 18px;
+  padding: 20px;
+  border: none;
+  background: #F36F21;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+#DIV_1 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 59.1875px;
+    left: 0px;
+    min-height: 48px;
+    min-width: auto;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(255, 255, 255);
+    top: 0px;
+    width: 1440px;
+    column-rule-color: rgb(255, 255, 255);
+    align-items: center;
+    perspective-origin: 720px 29.5938px;
+    transform-origin: 720px 29.5938px;
+    caret-color: rgb(255, 255, 255);
+    background: rgb(0, 0, 76) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px "Fedra Sans", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 0px 24px;
+}/*#DIV_1*/
+
+#DIV_1:after {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px "Fedra Sans", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_1:after*/
+
+#DIV_1:before {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px "Fedra Sans", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_1:before*/
+
+#DIV_2 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: 59.1875px;
+    min-height: auto;
+    min-width: auto;
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    width: 696px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 348px 29.5938px;
+    transform-origin: 348px 29.5938px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px "Fedra Sans", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 8px 0px;
+}/*#DIV_2*/
+
+#DIV_2:after {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    min-height: auto;
+    min-width: auto;
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px "Fedra Sans", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_2:after*/
+
+#DIV_2:before {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    min-height: auto;
+    min-width: auto;
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px "Fedra Sans", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_2:before*/
+
+
+#DIV_5 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 48px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(255, 255, 255);
+    width: 696px;
+    column-rule-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-between;
+    perspective-origin: 348px 24px;
+    transform-origin: 348px 24px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    flex: 1 1 auto;
+    font: normal normal 400 normal 16px / 20.8px "Fedra Sans", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_5*/
+
+#DIV_5:after {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px "Fedra Sans", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_5:after*/
+
+#DIV_5:before {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px "Fedra Sans", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_5:before*/
+
+#A_6 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 32px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(255, 255, 255);
+    width: 148.953px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 74.4688px 16px;
+    transform-origin: 74.4766px 16px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    flex: 1.4 1 auto;
+    font: normal normal 400 normal 16px / 20.8px "Fedra Sans", sans-serif;
+    margin: 0px 16px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#A_6*/
+
+#A_6:after {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px "Fedra Sans", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#A_6:after*/
+
+#A_6:before {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px "Fedra Sans", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#A_6:before*/
+</style>
+<body>
+<header>
+<div id="DIV_1">
+	<div >
+		<img src="https://www.dl.dropboxusercontent.com/s/vw1f7m41r23eyki/ANGA4.png?dl=0" width="430px">
+    
+		</div> 
+	<div id="DIV_2">
+
+	</div>
+	<div id="DIV_5">
+		<a href="/" id="A_6"></a>	
+	</div>
+</div>
+</header>
+<html>
+<a>
+<video autoplay muted loop id="myVideo">
+  <source src="https://www.dl.dropboxusercontent.com/s/odi7tppapcgowun/AngaUltimatebest.mp4?dl=0" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+</a>
+<div class="content">
+  <h1>The yogic way of fitness</h1>
+  <p>Angamardana is an ancient yogic workout that strengthens your spine, skeletal structure, circulatory, nervous and basic energy systems. You can build the necessary muscles without creating rigidity in the body. With regular practice:
+<ul>
+<li>Build physical strength, fitness, and tonus. It is a great cardio workout!</li>
+<li>Improve your body-mind coordination</li>
+<li>Enhance your concentration and focus </li>
+<li>Reduce your weight </li>
+<li>Take years off the body, bringing a sense of lightness and freedom</li>
+</ul></p>
+  <a href ="https://www.ishayoga.eu/index.php/register/?pgmId=474"><button id="myBtn" >Register for Aug 23 - 25 at IYC London!</button></a>
+</div>
+</html>
+
+
+</body>
+</html>
